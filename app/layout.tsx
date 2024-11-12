@@ -2,7 +2,7 @@
 
 /**
  * This project was developed by Nikandr Surkov.
- * 
+ *
  * YouTube: https://www.youtube.com/@NikandrSurkov
  * GitHub: https://github.com/nikandr-surkov
  */
@@ -23,8 +23,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Paws Game Clone",
-  description: "Clone of the popular Telegram mini app Paws, developed by Nikandr Surkov.",
+  title: "Garfield Game Airdrop",
+  description: "Developed By Hafizudin ",
 };
 
 export default function RootLayout({
@@ -34,11 +34,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>{children}</body>
     </html>
   );
 }
